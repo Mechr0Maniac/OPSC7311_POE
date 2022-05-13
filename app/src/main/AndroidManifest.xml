@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OPSC_7311_POE">
         <activity
+            android:name=".AddItemScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ListItemScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
